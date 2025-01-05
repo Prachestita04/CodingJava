@@ -15,13 +15,13 @@ public class BubbleSort {
     }
 
     private static void usingBubbleSort(int[] a) {
-        for (int p = 1; p <= a.length - 1 ; p++) {            //number of passes
-            for (int i = 0; i < a.length-1; i++) {            //iteration in each pass
-                    if (a[i] > a[i + 1]) {
-                        int temp = a[i];
-                        a[i] = a[i + 1];
-                        a[i + 1] = temp;
-                    }
+        for (int p = 1; p <= a.length - 1; p++) {            //number of passes
+            for (int i = 0; i < a.length - 1; i++) {            //iteration in each pass
+                if (a[i] > a[i + 1]) {
+                    int temp = a[i];
+                    a[i] = a[i + 1];
+                    a[i + 1] = temp;
+                }
             }
         }
         System.out.println("After sorting the sorted array is" + Arrays.toString(a));
