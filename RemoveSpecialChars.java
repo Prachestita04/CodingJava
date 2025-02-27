@@ -12,12 +12,21 @@ public class RemoveSpecialChars {
     }
     private static void usingUserDefinedLogic(String str) {
         for (int i=0;i<str.length();i++){
-            if(Character.isLetterOrDigit(str.charAt(i))){
+//            if(Character.isLetterOrDigit(str.charAt(i))){
+//                System.out.print(str.charAt(i));
+//            }
+//            else{
+//                System.out.print(" ");
+//            }
+            if((str.charAt(i)>=65)&&(str.charAt(i)<=90)||(str.charAt(i)>=97)&&(str.charAt(i)<=122)||(str.charAt(i)>=48)&&(str.charAt(i)<=57)){
                 System.out.print(str.charAt(i));
             }
             else{
                 System.out.print(" ");
             }
+
+
+
         }
 
     }
