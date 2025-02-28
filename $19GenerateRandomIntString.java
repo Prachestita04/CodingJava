@@ -2,7 +2,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 import java.util.Random;
 
-public class GenerateRandomIntString {
+public class $19GenerateRandomIntString {
     public static void main(String[] args) {
         // usingRandomApproach();
         //usingMathModule();

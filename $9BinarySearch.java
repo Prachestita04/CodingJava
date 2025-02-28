@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BinarySearch {
+public class $9BinarySearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array size: ");

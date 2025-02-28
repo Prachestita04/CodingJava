@@ -1,4 +1,4 @@
-public class MissingArrayElement {
+public class $22MissingArrayElement {
     public static void main(String[] args) {
         int[] a = {4, 5, 6, 8};
         findMissingElement(a);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SearchingElementArray {
+public class $30SearchingElementArray {
     public static void main(String[] args) {
         int[] arr = {10,20,30,40,50};
         linearSearch(arr);

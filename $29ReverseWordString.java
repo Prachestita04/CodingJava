@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReverseWordString {
+public class $29ReverseWordString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any string which you want to reverse:");

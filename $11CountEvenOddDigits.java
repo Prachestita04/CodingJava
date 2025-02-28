@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CountEvenOddDigits {
+public class $11CountEvenOddDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number:");

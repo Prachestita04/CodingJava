@@ -1,4 +1,4 @@
-public class Test {
+public class $33Test {
     public static void main(String[] args) {
         char ch = 'b';
         if (ch >= 0 && ch <= 9){

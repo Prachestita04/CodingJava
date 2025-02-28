@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class ReadingTextFile {
+public class $25ReadingTextFile {
     public static void main(String[] args) throws IOException {
 //        readFileApproach1();
 //        readFileApproach2();

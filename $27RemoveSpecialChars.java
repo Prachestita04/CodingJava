@@ -1,4 +1,4 @@
-public class RemoveSpecialChars {
+public class $27RemoveSpecialChars {
     public static void main(String[] args) {
         String s = "Welcome !@!!#!$%$%&* Jav%#$%$%&&%a $#%%*!()%%&%& Program 134676868675";
         System.out.println("Before removing special chars: "+s);

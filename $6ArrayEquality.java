@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ArrayEquality {
+public class $6ArrayEquality {
     public static void main(String[] args) {
         int[] arr1 = {10, 20, 30, 40, 50};
         int[] arr2 = {10, 20, 30, 40, 50};

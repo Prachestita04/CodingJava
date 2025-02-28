@@ -1,4 +1,4 @@
-public class RemoveWhiteSpaces {
+public class $28RemoveWhiteSpaces {
     public static void main(String[] args) {
         String str = "Java   is   an   Object   Oriented    Programming";
         System.out.println("Before removing space is: "+str);

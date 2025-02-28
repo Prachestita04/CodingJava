@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class DuplicateElementArray {
+public class $16DuplicateElementArray {
     public static void main(String[] args) {
         String[] arr = {"Java" ,"C","Python","C","Html"};
         //findDuplicate(arr);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FibonacciSeries {
+public class $18FibonacciSeries {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter place upto which you want your series:  ");

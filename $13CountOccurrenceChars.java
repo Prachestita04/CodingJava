@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class CountOccurrenceChars {
+public class $13CountOccurrenceChars {
     public static void main(String[] args) {
         String str = "Java Programming Language";
         char se = 'a';

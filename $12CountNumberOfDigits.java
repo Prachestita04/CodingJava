@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CountNumberOfDigits {
+public class $12CountNumberOfDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number:");

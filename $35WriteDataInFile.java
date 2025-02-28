@@ -1,9 +1,8 @@
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class WriteDataInFile {
+public class $35WriteDataInFile {
     public static void main(String[] args) throws IOException {
         writeFile();
     }

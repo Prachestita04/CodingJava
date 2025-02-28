@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RecursionPrimeNumber {
+public class $26RecursionPrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number");
