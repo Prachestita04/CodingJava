@@ -1,3 +1,4 @@
+//choose one element at a time and place it in right position by shifting all other previous element
 package DSAPrograms;
 
 import java.util.Arrays;
@@ -15,17 +16,19 @@ public class $5InsertionSort {
         }
         System.out.println(Arrays.toString(doInsertionSort(arr)));
     }
-    private static int[] doInsertionSort(int[] a){
-        int temp ,j=0;
-        for (int i=0;i<a.length;i++){
+
+    private static int[] doInsertionSort(int[] a) {
+        int temp, j;
+        for (int i = 0; i < a.length; i++) {
             temp = a[i];
-            while (j>0 && a[j-1]>temp){
-               a[j]=a[j-1];
-               j=j-1;
+            j = i;
+            while (j > 0 && a[j - 1] > temp) {
+                a[j] = a[j - 1];
+                j = j - 1;
             }
             a[j] = temp;
         }
-
+        System.out.println("Sorted array is: ");
         return a;
     }
 }
